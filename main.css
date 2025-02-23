@@ -34,7 +34,7 @@ input {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 1rem;
 }
 button {
@@ -42,14 +42,15 @@ button {
     padding: 10px;
     margin-bottom: 10px;
     border: none;
-    border-radius: 5px;
-    background-color: #007bff;
+    border-radius: 15px;
+    background-color: #86919c;
     color: white;
     font-size: 1rem;
     cursor: pointer;
+   
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #5e6164;
 }
 .exibir {
     list-style: none;
@@ -84,4 +85,6 @@ button:hover {
         font-size: 1rem;
     }
 }
+
+
 

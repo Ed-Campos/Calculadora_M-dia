@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculadora de media</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h2 class="titulo">Calculadora de Média</h2>
+        <div id="campos">
+            <input class="input" type="number" placeholder="Insira a sua nota" id="nota">
+            <button class="adicionar" id="btn-adicionar" onclick="adicionarNota()">Adicionar</button>
+            <ul class="exibir" id="lista"></ul>
+            <button class="media" id="btn-media" onclick="calcularMedia()">Calcular Media</button>
+            <button class="resetar" id="btn-resetar" onclick="resetar()">Resetar</button>
+            <p class="res" id="resultado"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
